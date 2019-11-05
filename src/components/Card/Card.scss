@@ -1,0 +1,16 @@
+@import "src/variables.scss";
+
+.Card {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: $gray-1 1px 1px 10px;
+  border: 1px solid;
+  margin: 20px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  line-height: 25px;
+  max-width: 300px;
+  overflow: hidden;
+  background: $card-background;
+}

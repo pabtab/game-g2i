@@ -1,0 +1,21 @@
+.Results {
+  li {
+    list-style-type: none;
+
+    .Alert {
+
+      &--default {
+        opacity: 0.7;
+      }
+
+      svg {
+        width: 30px;
+      }
+
+      .alert-text {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  }
+}

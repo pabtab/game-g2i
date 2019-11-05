@@ -1,0 +1,23 @@
+@import "src/variables.scss";
+
+
+.Alert {
+  width: 100%;
+  min-height: 70px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid;
+  box-shadow: $gray-1 1px 1px 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+
+  &--default {
+    background-color: $alert-default;
+  }
+
+  &--success {
+    background-color: $alert-success;
+  }
+}
